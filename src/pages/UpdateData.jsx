@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import api from '../axios/axios_config';
 const UpdateData = () => {
   const { id } = useParams();
   const navigate = useNavigate();

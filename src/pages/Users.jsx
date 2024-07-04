@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-
+import api from '../axios/axios_config';
 const Users = () => {
   const [cards, setCards] = useState([]);
   const navigate = useNavigate();
