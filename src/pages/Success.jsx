@@ -1,6 +1,6 @@
 import React from 'react'
 import grD from '../assets/bg-main-desktop.png'
-import grM from '../assets/bg-main-mobile.png'
+
 import cdF from '../assets/bg-card-front.png'
 import cdB from '../assets/bg-card-back.png'
 import success from '../assets/success.svg'
